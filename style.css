@@ -1,3 +1,72 @@
-lch1 {
+/* lch1 {
   color: black;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+/* main {
+} */
+
+img {
+  width: 100px;
+  height: 60px;
+  position: relative;
+}
+
+.header {
+  background-color: #0f2d49;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 10px;
+  grid-area: head;
+  text-align: center;
+  width: 1290px;
+  height: 35px;
+  display: flex;
+  align-items: center; /* Centrera vertikalt */
+  justify-content: space-between;
+  margin-left: 55px;
+}
+
+nav {
+  display: flex;
+  margin-left: auto;
+}
+nav,
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav,
+li {
+  margin-left: 20px; /* mellanrummet mellan länkarna */
+}
+
+nav,
+a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+li #sihlink {
+  color: grey;
+}
+p {
+  color: black;
+  font-weight: 400;
+  font-size: large;
+  font-family: "Noto Sans", sans-serif;
 }
