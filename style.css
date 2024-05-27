@@ -22,6 +22,22 @@ img {
   position: relative;
 }
 
+img#calender {
+  margin-top: 20px;
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+
+img#goodmorning,
+img#ilove,
+img#youhave {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
 .header {
   background-color: #0f2d49;
   color: white;
@@ -36,6 +52,7 @@ img {
   display: flex;
   align-items: center; /* Centrera vertikalt */
   justify-content: space-between;
+  margin-top: 8px;
   margin-left: 55px;
 }
 
@@ -69,4 +86,104 @@ p {
   font-weight: 400;
   font-size: large;
   font-family: "Noto Sans", sans-serif;
+}
+
+.form-container {
+  background-color: #0f2d49;
+  width: 581px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px auto 100px;
+  color: white;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 3px;
+}
+
+#register-form,
+#login-form {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  height: 80%;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#name,
+#email {
+  margin-bottom: 19px;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  height: 47px;
+  color: #0f2d49;
+  padding: 5px 100px;
+  margin-top: auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-dates {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.firstdate,
+.seconddate,
+.thirddate {
+  border-bottom: double;
+}
+
+img#erik14f,
+img#sanne14f,
+img#holdinghands,
+img#majhavet,
+img#majsushi {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+img#holdinghands {
+  margin-left: 170px;
+}
+
+.dateinfo {
+  display: flexbox;
+  flex-direction: row;
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+}
+.dateinfo {
+  color: black;
 }
