@@ -1,0 +1,5 @@
+[user]
+	email = delinsanne@gmail.com
+	name = hejhejsanne
+[http]
+	postBuffer = 524288000
