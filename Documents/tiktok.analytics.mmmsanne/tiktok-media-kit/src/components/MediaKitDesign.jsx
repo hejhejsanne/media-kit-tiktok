@@ -4,7 +4,7 @@ const MediaKitDesign = () => {
   return (
     <div className="flex flex-col items-center w-full p-8 bg-gray-50">
       <h1 className="text-3xl font-bold mb-8 text-center">
-        Media Kit - Sanne Delin
+        Media Kit - Sanne Delin HEJ
       </h1>
 
       {/* Cover Page */}
